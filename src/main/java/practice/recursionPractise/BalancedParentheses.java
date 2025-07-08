@@ -1,4 +1,4 @@
-package recursionPractise;
+package practice.recursionPractise;
 
 import java.util.Stack;
 

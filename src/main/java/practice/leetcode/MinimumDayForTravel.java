@@ -14,6 +14,7 @@ public class MinimumDayForTravel {
 
     public int minNoOfDayRequiredSecond(int[] arr){
         Set<Integer> set = new HashSet<>();
+        
         for(int i=0; i<arr.length; i++){
             set.add(arr[i]);
         }

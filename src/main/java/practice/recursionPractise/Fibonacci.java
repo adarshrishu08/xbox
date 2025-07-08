@@ -1,6 +1,4 @@
-package recursionPractise;
-
-import java.util.Map;
+package practice.recursionPractise;
 
 public class Fibonacci {
 

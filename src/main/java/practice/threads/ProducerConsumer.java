@@ -70,7 +70,7 @@ class ProducerConsumerExecution {
                 }
 
                 list.add(++value);
-                System.out.println("Produced Value :"+value +" Thread :"+ Thread.currentThread().getName());
+                System.out.println("Produced Value : "+value +" Thread : "+ Thread.currentThread().getName());
                 notify();
                 Thread.sleep(2000);
             }
@@ -88,7 +88,7 @@ class ProducerConsumerExecution {
                 }
 
                 int val = list.removeFirst();
-                System.out.println("consumed value :"+val+" Thread :"+ Thread.currentThread().getName());
+                System.out.println("consumed value : "+val+" Thread : "+ Thread.currentThread().getName());
                 notify();
                 Thread.sleep(2000);
             }

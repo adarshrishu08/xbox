@@ -1,3 +1,5 @@
+package practice;
+
 import java.awt.*;
 import java.util.Random;
 
